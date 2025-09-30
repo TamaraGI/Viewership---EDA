@@ -1,5 +1,5 @@
 
-# means that you're importing the Pandas library in Python and giving it the alias pd
+# means that you're importing the Pandas library in Python and giving it the alias pd (Data Manipulation)
 import pandas as pd
 
 # Import numpy for numerical operations and means that you're importing the NumPy library in Python and giving it the alias np
@@ -62,9 +62,8 @@ df.max()
 # The code removes duplicate rows from a DataFrame
 and then checks how many duplicates remain with 
 This ensures the dataset is cleaned and free of repeated entries.
-
 df.drop_duplicates(inplace=True)
-  df.duplicated().sum()
+df.duplicated().sum()
 
 # returns the minimum value from each column of a DataFrame
 df.min()
