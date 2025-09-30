@@ -18,6 +18,15 @@ display(df)
 # Displays a concise summary of the DataFrame, including the number of non-null values in each column and the data types of each column.
 df.info()
 
+# Show first 5 rows
+df.head()      
+
+# Show last 5 rows
+df.tail()
+
+# Summary statistics for numerical columns
+df.describe() 
+
 # Displays the datatypes of each column in the DataFrame.
 df.dtypes
 
@@ -33,7 +42,7 @@ df.duplicated().sum()
 #Returns the number of rows and columns in the DataFrame.
 df.shape
 
-# Returning the datatype of the column 'DateID
+# Returning the datatype of the column such as integers, strings, dates
 df.dtypes
 
 # Display column names to verify the correct spelling and case
