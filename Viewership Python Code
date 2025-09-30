@@ -9,7 +9,7 @@ import numpy as np
 data_path = "/Workspace/Users/tamaragovindsamy@gmail.com/Viewership Analysis .csv"
 
 # load data
-df = pd.read_csv("/Workspace/Users/tamaragovindsamy@gmail.com/Viewership Analysis .csv", on_bad_lines="skip")
+df = pd.read_csv("/Workspace/Users/tamaragovindsamy@gmail.com/Viewership Analysis .csv")
 display(df)
 
 # to display your data
