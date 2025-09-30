@@ -21,6 +21,9 @@ df.info()
 # Show first 5 rows
 df.head()      
 
+# Checks your data for missing values (like empty or NON cells) and shows True where values are missing and False where they’re present.
+df.isnull()
+
 # Show last 5 rows
 df.tail()
 
