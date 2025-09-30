@@ -1,0 +1,50 @@
+
+# means that you're importing the Pandas library in Python and giving it the alias pd
+import pandas as pd
+
+# Import numpy for numerical operations and means that you're importing the NumPy library in Python and giving it the alias np
+import numpy as np
+
+# data load to view the location of the file
+data_path = "/Workspace/Users/tamaragovindsamy@gmail.com/Viewership Analysis .csv"
+
+# load data
+df = pd.read_csv("/Workspace/Users/tamaragovindsamy@gmail.com/Viewership Analysis .csv", on_bad_lines="skip")
+display(df)
+
+# to display your data
+display(df)
+
+# Displays a concise summary of the DataFrame, including the number of non-null values in each column and the data types of each column.
+df.info()
+
+# Displays the datatypes of each column in the DataFrame.
+df.dtypes
+
+# Return the column labels of the DataFrame.
+df.columns
+
+# Returns a boolean series indicating duplicates in the DataFrame.
+df.duplicated()
+
+# Returns the number of duplicate rows in the DataFrame.
+df.duplicated().sum()
+
+#Returns the number of rows and columns in the DataFrame.
+df.shape
+
+# Returning the datatype of the column 'DateID
+df.dtypes
+
+# Display column names to verify the correct spelling and case
+display(df.columns)
+
+# Return  the unique values in the 'Platform' column
+df['Platform'].unique()
+
+df.duplicated().sum()
+
+# Display the column names to find the correct one
+print(df.columns)
+
+df.max()
